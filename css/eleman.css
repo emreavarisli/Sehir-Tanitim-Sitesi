@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+.navbar{
+    height: 8vh;
+    width: 100%;
+    background-color: #171515;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: large;
+  }
+
+body{
+    background-color: whitesmoke;
+}
+div.container {
+    border: 1px solid #000000;
+    overflow: hidden;
+    width: 100%;
+}
+div.kutu1 {
+    width: 20%;
+    float: left;
+    background-color:red;
+}
+div.kutu2 {
+    width: 60%;
+    float: left;
+    background-color:gainsboro;
+}
+div.kutu3{
+    width: 20%;
+    float: left;
+    background-color:blue;
+}
+.foto{
+    width: 90%;
+    height: 500px;
+    background-color: red;
+    background-image: url(/images/ishan_kilisesi.jpg);
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    padding: 5px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
