@@ -67,3 +67,10 @@ body{
     float: left;
     font-size: 17px;
 }
+.footer{
+    height: 9vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+    bottom: 0;
+}
