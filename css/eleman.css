@@ -16,7 +16,6 @@
     top: 0;
   }
   .clr{
-    /*BOŞLUKLARI TEMİZLEMEK İÇİN KULLANILIR*/
     clear: both;
   }
 a{
@@ -28,6 +27,19 @@ a{
 body{
     background-color: #ffffff;
 }
+body.dark{
+    background:gray;
+  }
+  body.dark .img-slider{
+    background: gray;
+  }
+  body.dark .navbar{
+    background: white;
+  }
+
+  body.dark .navbar a{
+    color: black;
+  }
 .container{
     margin-left: 400px;
     margin-right: 400px;
