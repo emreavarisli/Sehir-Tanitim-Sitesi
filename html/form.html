@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+ 
+<body>
+    <nav class="navbar">
+        <h1><a href="index.html" class="one">ARTVİN</a></h1>
+        <a href="gezi.html" class="two">Gezilecek Yerler</a>
+        <a href="konaklama.html" class="three">Konaklama</a>
+        <a href="yemekler.html" class="four">Yemekler</a>
+        <a href="ilceler.html" class="five">İlçeler</a>
+        <a href="form.html" class="six">İletişim</a>
+        <a href="#" id="check"> 
+           <i class="fas fa-adjust"></i>
+           <small>Dark/Light</small>
+        </a>
+    </nav>
+
+    <div class="container">
+        <form id="contact" action="" method="">
+            <h2>İletişim Sayfası</h2>
+            <div class="form-control">
+                <input placeholder="Adınız Soyadınız" type="text" id="text" required autofocus>
+            </div>
+            <div class="form-control">
+                <input placeholder="E-Posta Adresiniz" type="email" id="email" required>
+            </div>
+            <div class="form-control">
+                <input placeholder="Konu" type="text" id="konu" required>
+            </div>
+            <div class="form-control">
+                <textarea placeholder="Lütfen Mesajınızı Buraya Yazın.." id="message" required></textarea>
+            </div>
+            <div class="form-control">
+                <button name="submit" type="submit" id="submit">GÖNDER</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="../script.js"></script>
+    <script src="../script2.js"></script>
+</body>
+</html>
