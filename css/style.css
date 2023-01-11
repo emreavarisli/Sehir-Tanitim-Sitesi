@@ -24,14 +24,19 @@ div h1{
 }
 body{
   height: 100vh;
-  background: #1D212B;
   overflow: hidden;
 }
-body.dark{
-  background:gray;
-}
-body.dark .img-slider{
-  background: gray;
+.arka{
+  background: url(../images/anasayfa2.jpg);
+  position:absolute;
+  opacity: .7;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-1;
 }
 body.dark .navbar{
   background: white;
@@ -45,7 +50,6 @@ body.dark .navbar a{
   width: 1000px;
   height: 800px;
   margin: 10px;
-  background: #1D212B;
   left: 380px;
   top: 100px;
 }
