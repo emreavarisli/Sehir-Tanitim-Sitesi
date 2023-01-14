@@ -25,6 +25,7 @@ div h1{
 body{
   height: 100vh;
   overflow: hidden;
+  font-family: 'Courier New', Courier, monospace;
 }
 .arka{
   background: url(../images/anasayfa2.jpg);
@@ -38,8 +39,12 @@ body{
   background-size: cover;
   z-index:-1;
 }
+body.dark {
+  font-family: Arial, Helvetica, sans-serif;
+}
 body.dark .navbar{
   background: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body.dark .navbar a{
